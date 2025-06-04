@@ -1,0 +1,32 @@
+import Image from 'next/image';
+import React from 'react';
+
+const Hero = () => {
+    return (
+        <div
+            className="hero min-h-[60vh] sm:min-h-[70vh] lg:min-h-[80vh]"
+            style={{
+                backgroundImage: "url('/assets/BusBanner.png')"
+            }}
+        >
+            <div className="hero-overlay"></div>
+            <div className="hero-content text-neutral-content text-center px-4 sm:px-6 lg:px-8">
+                <div className="flex flex-col items-center">
+                    <h1 className="mb-4 sm:mb-5 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                        TreediMap Will Launch
+                        <br />in 2028
+                    </h1>
+                    <p className="mb-4 sm:mb-5 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 text-base sm:text-lg md:text-xl text-center text-[#D9D9D9]">
+                        In 2028, TreediMap will become the most realistic 3D map of Canada ever built. You will beable to explore the entire country as if you were truly there—street by street, city by city.
+                    </p>
+                    <button className="btn bg-[#7A31F4] border-none text-white rounded-4xl px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base">
+                        Download App
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    );
+};
+
+export default Hero;
