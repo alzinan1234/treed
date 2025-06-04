@@ -2,7 +2,10 @@ import React from 'react'
 
 const File = () => {
   return (
-    <div>File</div>
+    <div>
+
+        this is file
+    </div>
   )
 }
 
