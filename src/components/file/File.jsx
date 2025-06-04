@@ -4,7 +4,7 @@ const File = () => {
   return (
     <div>
 
-        this is file
+       
     </div>
   )
 }
